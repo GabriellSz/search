@@ -1,0 +1,34 @@
+header * {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+ul li {
+    margin: 0px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+ul li a {
+    color: white;
+    background-color: #5094ed;
+
+    padding: 9px 23px;
+    margin-right: 0px;
+
+    border-radius: 4px;
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+}
